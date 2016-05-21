@@ -10,19 +10,7 @@ namespace DevApps.MyProject
     {
         public static double Divide(int a, int b)
         {
-            //return a / b;
-
-            double result = (double)a / (double)b;
-            return Math.Round(result);
+            return a / b;
         }
-
-        public static int Surface(int height, int width)
-        {
-            if (height < 0 || width < 0)
-                return 0;
-            else
-                return height * width;
-        }
-
     }
 }
